@@ -1,0 +1,24 @@
+{
+    "outputDir":"output",
+    "devices":{
+        "pc":{
+            "width":1920,
+            "height":3000,
+            "name":"{{key}}/{{key}}_pc.jpg",
+            "quality":100,
+            "fullPage":true
+        },
+        "tablet":{
+            "emulate":"iPad (gen 7)",
+            "name":"{{key}}/{{key}}_tb.jpg",
+            "quality":100,
+            "fullPage":true
+        },
+        "mobile":{
+            "emulate":"iPhone 12",
+            "name":"{{key}}/{{key}}_sp.jpg",
+            "quality":100,
+            "fullPage":true
+        }
+    }
+}
